@@ -1,4 +1,4 @@
-def é_primo (x):
+def eh_primo (x):
     i = 2
     resto = 1
     primo = True
@@ -15,7 +15,7 @@ if __name__ == '__main__':
         
         n = 2
         while n < limite:
-            if é_primo (n):
+            if eh_primo (n):
                 print (n, end= ", ")
             n += 1
             
